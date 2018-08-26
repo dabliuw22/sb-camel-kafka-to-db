@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    username: sa 
+    password:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+  h2:
+    console:
+      enabled: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: wleylop22@gmail.com
+    password: barcelona22
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+mail:
+  from: wleylop22@gmail.com
+  to: wleylop22@gmail.com
+  
+route:
+  from: 
+    kafka: kafka:message.t?brokers=localhost:9092&groupId=message.g&autoOffsetReset=earliest&consumersCount=1
+  to: 
+    db: jdbc:dataSourceH2
