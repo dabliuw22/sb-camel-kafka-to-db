@@ -16,7 +16,7 @@ $ ./bin/zookeeper-server-start.sh ./config/zookeeper.properties
 ```
 $ ./bin/kafka-server-start.sh ./config/server.properties
 ```
-5. Crear *message.t*:
+5. Crear *message.t* topic:
 ```
 $ ./bin/kafka-topics.sh --create --topic message.t -zookeeper localhost:2181 --replication-factor 1 --partitions 3
 ```
