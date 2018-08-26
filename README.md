@@ -2,7 +2,7 @@
 
 En este proyecto crearemos un consumidor para Kafka con *Apache Camel* y realizaremos inserciones en H2 DB.
 
-1. (https://www.apache.org/dyn/closer.cgi?path=/kafka/1.1.0/kafka_2.11-1.1.0.tgz)[Descargar] Kafka y Zookeeper.
+1. [Descargar](https://www.apache.org/dyn/closer.cgi?path=/kafka/1.1.0/kafka_2.11-1.1.0.tgz) Kafka y Zookeeper.
 
 2. Descomprimir e ingresar al folder de Kafka:
 ```
